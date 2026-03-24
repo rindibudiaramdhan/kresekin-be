@@ -14,7 +14,6 @@ RUN apk add --no-cache \
         pdo_pgsql \
         pgsql \
         pdo_sqlite \
-        sqlite3 \
         xml
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
